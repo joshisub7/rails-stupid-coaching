@@ -1,7 +1,5 @@
-<!-- Display the question you asked your coach
-Display his answer -->
-
 <h1>Stupid coaching</h1>
+
 <p>
 My question: <%= @question %>
 </p>
@@ -10,6 +8,4 @@ My question: <%= @question %>
 Answer: <%= @answer %>
 </p>
 
-<p>
-Params:<%= params %>
-</p>
+<%= link_to "Ask a new question", "/ask" %>
